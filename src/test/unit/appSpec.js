@@ -4,7 +4,7 @@
 
   describe('app', function() {
 
-    it("will return undefined for primatives", function() {
+    it("will create listar module", function() {
       expect(angular.module('listar')).toBeDefined();
     });
 
