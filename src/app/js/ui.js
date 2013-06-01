@@ -8,10 +8,10 @@
 	/**
 	 * Directive that executes an expression when the element it is applied to loses focus
 	 */
-	uiModule.directive('todoBlur', function() {
+	uiModule.directive('uiBlur', function() {
 		return function(scope, elem, attrs) {
 			elem.bind('blur', function() {
-				scope.$apply(attrs.todoBlur);
+				scope.$apply(attrs.uiBlur);
 			});
 		};
 	});
@@ -19,9 +19,9 @@
 	/**
 	 * Directive that places focus on the element it is applied to when the expression it binds to evaluates to true
 	 */
-	uiModule.directive('todoFocus', function($timeout) {
+	uiModule.directive('uiFocus', function($timeout) {
 		return function(scope, elem, attrs) {
-			scope.$watch(attrs.todoFocus, function(newVal) {
+			scope.$watch(attrs.uiFocus, function(newVal) {
 				if (newVal) {
 					$timeout(function() {
 						elem[0].focus();
