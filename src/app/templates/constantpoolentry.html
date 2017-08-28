@@ -1,0 +1,55 @@
+<div class="constant-pool-entry" ng-switch on="entry.type">
+  <span>{{entry.type}} ({{entry.tag}})</span>
+  <dl ng-switch-when="Class">
+    <dt>Class Offset</dt>
+    <dd>{{entry.name_offset}}</dd>
+  </dl>
+  <dl ng-switch-when="Fieldref">
+    <dt>Class Offset</dt>
+    <dd>{{entry.class_offset}}</dd>
+    <dt>Name and Type Offset</dt>
+    <dd>{{entry.name_and_type_offset}}</dd>
+  </dl>
+  <dl ng-switch-when="Methodref">
+    <dt>Class Offset</dt>
+    <dd>{{entry.class_offset}}</dd>
+    <dt>Name and Type Offset</dt>
+    <dd>{{entry.name_and_type_offset}}</dd>
+  </dl>
+  <dl ng-switch-when="InterfaceMethodref">
+    <dt>Class Offset</dt>
+    <dd>{{entry.class_offset}}</dd>
+    <dt>Name and Type Offset</dt>
+    <dd>{{entry.name_and_type_offset}}</dd>
+  </dl>
+  <dl ng-switch-when="String">
+    <dt>Constant Offset</dt>
+    <dd>{{entry.constant_offset}}</dd>
+  </dl>
+  <dl ng-switch-when="Integer">
+    <dt>Constant</dt>
+    <dd>{{entry.constant}}</dd>
+  </dl>
+  <dl ng-switch-when="Float">
+    <dt>Constant</dt>
+    <dd>{{entry.constant}}</dd>
+  </dl>
+  <dl ng-switch-when="Long">
+    <dt>Constant</dt>
+    <dd>{{entry.constant}}</dd>
+  </dl>
+  <dl ng-switch-when="Double">
+    <dt>Constant</dt>
+    <dd>{{entry.constant}}</dd>
+  </dl>
+  <dl ng-switch-when="NameAndTypeInfo">
+    <dt>Name Offset</dt>
+    <dd>{{entry.name_offset}}</dd>
+    <dt>Descriptor Offset</dt>
+    <dd>{{entry.name_descriptor_offset}}</dd>
+  </dl>
+  <dl ng-switch-when="UTF8">
+    <dt>String</dt>
+    <dd>{{entry.string}}</dd>
+  </dl>
+</div>

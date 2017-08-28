@@ -9,7 +9,7 @@ module.exports = function(grunt) {"use strict";
     },
     config_files: ['Gruntfile.js','package.json','component.json','config/karma*.conf.js'],
     app_files: ['src/app/**/*.js'],
-    test_files: ['src/test/**/*.js'],
+    test_files: ['src/test/**/*.js','data/*.json'],
     source_files: ['<%= config_files %>','<%= app_files %>','<%= test_files %>'],
     watch : {
       scripts: {
@@ -41,13 +41,17 @@ module.exports = function(grunt) {"use strict";
           describe : false,
           ddescribe : false,
           beforeEach : false,
+          afterEach: false,
           it : false,
           iit : false,
           expect : false,
           //karma
           dump: false,
           //angular
-          angular : false
+          angular : false,
+          inject: false,
+          dealoc: false,
+          browserTrigger: false
         }
       },
     },

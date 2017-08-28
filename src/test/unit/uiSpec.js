@@ -1,12 +1,9 @@
-
 (function() {
-  "use strict";
+	"use strict";
 
-  describe('listarUi', function() {
+	describe('jceUi', function() {
 
-    it("will create listar ui module", function() {
-      expect(angular.module('listarUi')).toBeDefined();
-    });
 
-  });
+
+	});
 })();

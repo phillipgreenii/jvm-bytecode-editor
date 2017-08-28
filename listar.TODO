@@ -1,4 +1,0 @@
-GUI:
- ☐ Import angular todomvc as list editor
- ☐ create end to end tests for list editor
- ☐ tweak list editor for full support (delete key should delete todo when selected, enter should start edit mode, escape should act as cancel, keyboard short cuts to re-order lists)

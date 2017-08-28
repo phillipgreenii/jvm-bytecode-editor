@@ -2,6 +2,6 @@
   "use strict";
 
   /* App Module */
-  angular.module('listar', ['ngResource', 'ngSanitize', 'ui.bootstrap', 'list', 'listarUi']);
+  angular.module('jce', ['ngResource', 'ngSanitize', 'ui.bootstrap', 'jceCtrl','jceUi']);
 
 }());

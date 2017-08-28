@@ -1,0 +1,43 @@
+<div class="attribute">
+<span> "{{attribute.name}}" ({{attribute.name_offset}});</span>
+<dl>
+
+ <dt>length</td>
+ <dd>{{attribute.info_length}}</dd>
+ <dt>value</dt>
+ <dd ng-switch on="attribute.name">
+ 	<span ng-switch-when="SourceFile">{{attribute.value.name}} ({{attribute.value.name_index}})</span>
+ 	<ul ng-switch-when="InnerClasses">
+ 		 <li ng-repeat="innerclassinfo in attribute.value">
+  			<dl>
+  				<dt>Inner Class</dt>
+  				<dd>{{innerclassinfo.inner_class_name}} ({{innerclassinfo.inner_class_info_index}})</dd>
+  				<dt>Outer Class Offset</dt>
+  				<dd>{{innerclassinfo.outer_class_info_index}}</dd>
+  				<dt>Access Flags</dt>
+  				<dd><jce:accessflags value="innerclassinfo.inner_class_access_flags" type="nestedclass"></jce:accessflags></dd>
+  			</dl>
+  		</li>
+ 	</ul>
+ 	<ul ng-switch-when="Code">
+		<dl>
+			<dt>Max Stack</dt>
+			<dd>{{attribute.value.maxStack}}</dd>
+			<dt>Max Local</dt>
+			<dd>{{attribute.value.maxLocal}}</dd>
+			<dt>Code</dt>
+			<dd>{{attribute.value.code}}</dd>
+			<dt>Exceptions</dt>
+			<dd>{{attribute.value.exceptions}}</dd>
+			<dt>Attributes</dt>
+			<dd><jce:Attributesx attributes="attribute.value.attributes"></jce:Attributesx></dd>
+		</dl>
+ 	</ul>
+
+ 	<div ng-switch-default>{{attribute.value}}</div>
+ </dd>
+
+</dl>
+
+
+</div>

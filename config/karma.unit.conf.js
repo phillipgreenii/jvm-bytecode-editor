@@ -10,7 +10,12 @@ basePath = '';
 files = [
   JASMINE,
   JASMINE_ADAPTER,
+  '../components/jquery/jquery.js',
   '../components/angular/angular.js',
+  '../components/angular-resource/angular-resource.js',
+  '../components/angular-sanitize/angular-sanitize.js',
+  '../components/angular-ui-bootstrap-bower/ui-bootstrap.js',
+  '../components/angular-mocks/angular-mocks.js',
   '../src/app/**/*.js',
   '../src/test/unit/**/*Spec.js'
 ];

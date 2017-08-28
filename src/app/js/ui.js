@@ -2,7 +2,7 @@
 	"use strict";
 
 	/* App Module */
-	var uiModule = angular.module('listarUi', []);
+	var uiModule = angular.module('jceUi', []);
 
 
 	/**

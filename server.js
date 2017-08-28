@@ -5,6 +5,7 @@ var connect  = require('connect');
 var app = connect.createServer();
 
 app.use(connect.logger('dev'))
+  .use('/data',connect.static('data'))
   .use('/lib',connect.static('components'))
   .use(connect.static('src/app'));
 

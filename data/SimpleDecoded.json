@@ -1,0 +1,791 @@
+{
+	"magicNumber": [202, 254, 186, 190],
+	"version": {
+		"major": 50,
+		"minor": 0
+	},
+	"accessFlags": 1056,
+	"name": "mypackage.MyClass",
+	"superName": "mypackage.MyParentClass",
+	"interfaces": [{
+			"name": "java.lang.Serializable",
+			"name_offset": 2
+		}
+	],
+	"constantpool": [{
+			"type": "Methodref",
+			"tag": 10,
+			"class_offset": 18,
+			"name_and_type_offset": 58
+		}, {
+			"type": "Fieldref",
+			"tag": 9,
+			"class_offset": 17,
+			"name_and_type_offset": 59
+		}, {
+			"type": "Fieldref",
+			"tag": 9,
+			"class_offset": 60,
+			"name_and_type_offset": 61
+		}, {
+			"type": "String",
+			"tag": 8,
+			"constant_offset": 62
+		}, {
+			"type": "Methodref",
+			"tag": 10,
+			"class_offset": 63,
+			"name_and_type_offset": 64
+		}, {
+			"type": "String",
+			"tag": 8,
+			"constant_offset": 65
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 66
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 67
+		}, {
+			"type": "Methodref",
+			"tag": 10,
+			"class_offset": 8,
+			"name_and_type_offset": 58
+		}, {
+			"type": "String",
+			"tag": 8,
+			"constant_offset": 68
+		}, {
+			"type": "Methodref",
+			"tag": 10,
+			"class_offset": 8,
+			"name_and_type_offset": 69
+		}, {
+			"type": "Methodref",
+			"tag": 10,
+			"class_offset": 8,
+			"name_and_type_offset": 70
+		}, {
+			"type": "Methodref",
+			"tag": 10,
+			"class_offset": 8,
+			"name_and_type_offset": 71
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 72
+		}, {
+			"type": "String",
+			"tag": 8,
+			"constant_offset": 73
+		}, {
+			"type": "Methodref",
+			"tag": 10,
+			"class_offset": 14,
+			"name_and_type_offset": 74
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 75
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 76
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 77
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 78
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "SimpleInner"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "InnerClasses"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "MY_LONG"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "J"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "ConstantValue"
+		}, {
+			"type": "Long",
+			"tag": 5,
+			"constant": 7882
+		},
+		null, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "name"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Ljava/lang/String;"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "<init>"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "()V"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Code"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "LineNumberTable"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "LocalVariableTable"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "this"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "LSimple"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "getName"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "()Ljava/lang/String;"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "catchException"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "ex"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Ljava/lang/RuntimeException;"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "StackMapTable"
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 66
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 79
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "throwException"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Exceptions"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "methodWithParameters"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "IFLjava/lang/String;[Ljava/lang/Object;)Z"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "i"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "I"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "f"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "F"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "s"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "stuff"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "[Ljava/lang/Object;"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "SourceFile"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Simple.java"
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 30,
+			"name_descriptor_offset": 31
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 28,
+			"name_descriptor_offset": 29
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 80
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 81,
+			"name_descriptor_offset": 82
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "In Try"
+		}, {
+			"type": "Class",
+			"tag": 7,
+			"name_offset": 83
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 84,
+			"name_descriptor_offset": 85
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "In Finally"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/lang/RuntimeException"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/lang/StringBuilder"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "In Catch:"
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 86,
+			"name_descriptor_offset": 87
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 86,
+			"name_descriptor_offset": 88
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 89,
+			"name_descriptor_offset": 38
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/lang/Exception"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "exception being thrown"
+		}, {
+			"type": "NameAndTypeInfo",
+			"tag": 12,
+			"name_offset": 30,
+			"name_descriptor_offset": 85
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Simple"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/lang/Object"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/io/Serializable"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Simple$SimpleInner"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/lang/Throwable"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/lang/System"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "out"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "Ljava/io/PrintStream;"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "java/io/PrintStream"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "println"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "(Ljava/lang/String;)V"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "append"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+		}, {
+			"type": "UTF8",
+			"tag": 1,
+			"string": "toString"
+		}
+	],
+	"fields": [{
+			"accessFlags": 25,
+			"name": "MY_LONG",
+			"name_offset": 23,
+			"descriptor": "J",
+			"descriptor_offset": 24,
+			"attributes": [{
+					"name": "ContantValue",
+					"name_offset": 19,
+					"info_length": 2,
+					"value": 26
+				}
+			]
+		}, {
+			"accessFlags": 2,
+			"name": "name",
+			"name_offset": 28,
+			"descriptor": "Ljava/lang/String;",
+			"descriptor_offset": 29,
+			"attributes": []
+		}
+
+	],
+	"methods": [{
+			"accessFlags": 0,
+			"name": "<init>",
+			"name_offset": 30,
+			"signature": "()V",
+			"signature_offset": 31,
+			"attributes": [{
+					"name": "Code",
+					"name_offset": 32,
+					"info_length": 51,
+					"value": {
+						"maxStack": 1,
+						"maxLocal": 1,
+						"code": [42, 183, 0, 1, 177],
+						"exceptions": [],
+						"attributes": [{
+								"name": "LineNumberTable",
+								"name_offset": 33,
+								"info_length": 10,
+								"value": {
+									"line_numbers": [{
+											"start_pc": 0,
+											"line_number": 2
+										}, {
+											"start_pc": 2,
+											"line_number": 4
+										}
+									]
+								}
+							}, {
+								"name": "LocalVariableTable",
+								"name_offset": 34,
+								"info_length": 12,
+								"value": {
+									"local_wariables": [{
+											"start_pc": 0,
+											"length": 5,
+											"name": "this",
+											"name_offset": 35,
+											"descriptor": "LSimple;",
+											"descriptor_offset": 36,
+											"index": 0
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}, {
+			"accessFlags": 1,
+			"name": "getName",
+			"name_offset": 37,
+			"signature": "()Ljava/lang/String;",
+			"signature_offset": 38,
+			"attributes": [{
+					"name": "Code",
+					"name_offset": 32,
+					"info_length": 51,
+					"value": {
+						"maxStack": 1,
+						"maxLocal": 1,
+						"code": [42, 180, 0, 2, 176],
+						"exceptions": [],
+						"attributes": [{
+								"name": "LineNumberTable",
+								"name_offset": 33,
+								"info_length": 6,
+								"value": {
+									"line_numbers": [{
+											"start_pc": 0,
+											"line_number": 5
+										}
+									]
+								}
+							}, {
+								"name": "LocalVariableTable",
+								"name_offset": 34,
+								"info_length": 12,
+								"value": {
+									"local_wariables": [{
+											"start_pc": 0,
+											"length": 5,
+											"name": "this",
+											"name_offset": 35,
+											"descriptor": "LSimple;",
+											"descriptor_offset": 36,
+											"index": 0
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}, {
+			"accessFlags": 1,
+			"name": "catchException",
+			"name_offset": 39,
+			"signature": "()V",
+			"signature_offset": 31,
+			"attributes": [{
+					"name": "Code",
+					"name_offset": 32,
+					"info_length": 201,
+					"value": {
+						"maxStack": 3,
+						"maxLocal": 3,
+						"code": [178, 0, 3, 18, 4, 182, 0, 5, 178, 0, 3, 18, 6, 182, 0, 5, 167, 0, 51, 76, 178, 0, 3, 187, 0, 8, 89, 183, 0, 9, 18, 10, 182, 0, 11, 43, 182, 0, 12, 182, 0, 13, 182, 0, 5, 178, 0, 3, 18, 6, 182, 0, 5, 167, 0, 15, 77, 178, 0, 3, 18, 6, 182, 0, 5, 44, 191, 177],
+						"exceptions": [{
+								"start_pc": 0,
+								"stop_pc": 8,
+								"handler_pc": 19,
+								"catch_type_index": 7
+							}, {
+								"start_pc": 0,
+								"stop_pc": 8,
+								"handler_pc": 56,
+								"catch_type_index": 0
+							}, {
+								"start_pc": 19,
+								"stop_pc": 45,
+								"handler_pc": 56,
+								"catch_type_index": 0
+							}, {
+								"start_pc": 56,
+								"stop_pc": 57,
+								"handler_pc": 56,
+								"catch_type_index": 0
+							}
+						],
+						"attributes": [{
+								"name": "LineNumberTable",
+								"name_offset": 33,
+								"info_length": 38,
+								"value": {
+									"line_numbers": [{
+											"start_pc": 0,
+											"line_number": 8
+										}, {
+											"start_pc": 8,
+											"line_number": 12
+										}, {
+											"start_pc": 16,
+											"line_number": 13
+										}, {
+											"start_pc": 19,
+											"line_number": 9
+										}, {
+											"start_pc": 20,
+											"line_number": 10
+										}, {
+											"start_pc": 45,
+											"line_number": 12
+										}, {
+											"start_pc": 53,
+											"line_number": 13
+										}, {
+											"start_pc": 56,
+											"line_number": 12
+										}, {
+											"start_pc": 67,
+											"line_number": 14
+										}
+									]
+								}
+							}, {
+								"name": "LocalVariableTable",
+								"name_offset": 34,
+								"info_length": 22,
+								"value": {
+									"local_wariables": [{
+											"start_pc": 20,
+											"length": 25,
+											"name": "ex",
+											"name_offset": 40,
+											"descriptor": "Ljava/lang/RuntimeException;",
+											"descriptor_offset": 41,
+											"index": 1
+										}, {
+											"start_pc": 0,
+											"length": 68,
+											"name": "this",
+											"name_offset": 35,
+											"descriptor": "LSimple;",
+											"descriptor_offset": 36,
+											"index": 0
+										}
+									]
+								}
+							}, {
+								"name": "StackMapTable",
+								"name_offset": 42,
+								"info_length": 11,
+								"value": {
+									"stack_frames": [{
+											"tag": 83,
+											"tag_type": "SAME_LOCALS_1_STACK_ITEM",
+											"verification_info": {
+												"tag": 7,
+												"tag_type": "ObjectVariableInfo",
+												"offset": 43
+											}
+										}, {
+											"tag": 100,
+											"tag_type": "SAME_LOCALS_1_STACK_ITEM",
+											"verification_info": {
+												"tag": 7,
+												"tag_type": "ObjectVariableInfo",
+												"offset": 44
+											}
+										}, {
+											"tag": 10,
+											"tag_type": "SAME"
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}, {
+			"accessFlags": 1,
+			"name": "throwException",
+			"name_offset": 45,
+			"signature": "()V",
+			"signature_offset": 31,
+			"attributes": [{
+					"name": "Code",
+					"name_offset": 32,
+					"info_length": 52,
+					"value": {
+						"maxStack": 3,
+						"maxLocal": 1,
+						"code": [187, 0, 14, 89, 18, 15, 183, 0, 16, 191],
+						"exceptions": [],
+						"attributes": [{
+								"name": "LineNumberTable",
+								"name_offset": 33,
+								"info_length": 6,
+								"value": {
+									"line_numbers": [{
+											"start_pc": 0,
+											"line_number": 16
+										}
+									]
+								}
+							}, {
+								"name": "LocalVariableTable",
+								"name_offset": 34,
+								"info_length": 12,
+								"value": {
+									"local_wariables": [{
+											"start_pc": 0,
+											"length": 10,
+											"name": "this",
+											"name_offset": 35,
+											"descriptor": "LSimple;",
+											"descriptor_offset": 36,
+											"index": 0
+										}
+									]
+								}
+							}
+						]
+					}
+				}, {
+					"name": "Exceptions",
+					"name_offset": 46,
+					"info_length": 1,
+					"value": [
+						15
+					]
+				}
+			]
+		}, {
+			"accessFlags": 129,
+			"name": "methodWithParameters",
+			"name_offset": 47,
+			"signature": "(IFLjava/lang/String;[Ljava/lang/Object;)Z",
+			"signature_offset": 48,
+			"attributes": [{
+					"name": "Code",
+					"name_offset": 32,
+					"info_length": 84,
+					"value": {
+						"maxStack": 1,
+						"maxLocal": 5,
+						"code": [3, 172],
+						"exceptions": [],
+						"attributes": [{
+								"name": "LineNumberTable",
+								"name_offset": 33,
+								"info_length": 6,
+								"value": {
+									"line_numbers": [{
+											"start_pc": 0,
+											"line_number": 19
+										}
+									]
+								}
+							}, {
+								"name": "LocalVariableTable",
+								"name_offset": 34,
+								"info_length": 52,
+								"value": {
+									"local_wariables": [{
+											"start_pc": 0,
+											"length": 2,
+											"name": "this",
+											"name_offset": 35,
+											"descriptor": "LSimple;",
+											"descriptor_offset": 36,
+											"index": 0
+										}, {
+											"start_pc": 0,
+											"length": 2,
+											"name": "i",
+											"name_offset": 49,
+											"descriptor": "I",
+											"descriptor_offset": 50,
+											"index": 1
+										}, {
+											"start_pc": 0,
+											"length": 2,
+											"name": "f",
+											"name_offset": 51,
+											"descriptor": "F",
+											"descriptor_offset": 52,
+											"index": 2
+										}, {
+											"start_pc": 0,
+											"length": 2,
+											"name": "s",
+											"name_offset": 53,
+											"descriptor": "Ljava/lang/String;",
+											"descriptor_offset": 29,
+											"index": 3
+										}, {
+											"start_pc": 0,
+											"length": 2,
+											"name": "stuff",
+											"name_offset": 54,
+											"descriptor": "[Ljava/lang/Object;",
+											"descriptor_offset": 55,
+											"index": 4
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"attributes": [{
+			"name": "SourceFile",
+			"name_offset": 56,
+			"info_length": 2,
+			"value": {
+				"name": "Simple.class",
+				"name_offset": 57
+			}
+		}, {
+			"name": "InnerClasses",
+			"name_offset": 22,
+			"info_length": 10,
+			"value": [{
+					"inner_class_info_index": 20,
+					"outer_class_info_index": 17,
+					"inner_class_name_index": 21,
+					"inner_class_name": "SimpleInner",
+					"inner_class_access_flags": 8
+				}
+			]
+		}
+	]
+}

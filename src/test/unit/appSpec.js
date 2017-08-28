@@ -4,8 +4,8 @@
 
   describe('app', function() {
 
-    it("will create listar module", function() {
-      expect(angular.module('listar')).toBeDefined();
+    it("will create jce module", function() {
+      expect(angular.module('jce')).toBeDefined();
     });
 
   });

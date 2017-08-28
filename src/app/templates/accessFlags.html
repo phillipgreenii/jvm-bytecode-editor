@@ -1,0 +1,7 @@
+<div class="access-flags">
+<ol reversed="true">
+  <li ng-repeat="bit in parse(type,value)" value="{{bit.value}}">
+  	<label>{{bit.name}}<input type="checkbox" value="{{bit.name}}" ng-checked="bit.enabled" readonly></label>
+  </li>
+</ol>
+</div>
